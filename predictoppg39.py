@@ -1,4 +1,79 @@
-
+#question(a)
+count=0
+while count<10:
+    print('Hello')
+        count+=1
+#output unexpected indentat error
+#question(b)
+x=10
+y=0
+while x,y:
+    print(x,z)
+    x=x-1
+    y=y+1
+#output
+#10 0
+#9 1
+#8 2
+#7 3
+#6 4
+#question(c)
+keepgoing=True
+x=100
+while keepgoing:
+    print(x)
+    x=x-10
+    if x < 50:
+        keepgoing=False
+#output
+#100
+#90
+#80
+#70
+#60
+#50
+#question (d)
+x=45
+while x<50:
+    print(x)
+#output
+#Infinite loop of 45s caused due to no updation of loop
+#question (e)
+for x in (1,2,3,4,5):
+    print(x)
+#output
+#1
+#2
+#3
+#4
+#5
+#questions (f)
+for p in range(1,10):
+    print(p)
+#output
+#1
+#2
+#3
+#4
+#5
+#6
+#7
+#8
+#9
+#questions(g)
+for z in range(-500,500,100):
+    print(z)
+#output
+#-500
+#-400
+#-300
+#-200
+#-100
+#0
+#100
+#200
+#300
+#400
 #question (h)
 x=10
 y=5
